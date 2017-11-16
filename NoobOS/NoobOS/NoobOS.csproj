@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7326189B-FBAB-4D2B-A4CD-FECEA9AA881C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NoobOS</RootNamespace>
+    <AssemblyName>NoobOS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cosmos.Assembler">
+      
+    </Reference>
+    <Reference Include="Cosmos.Assembler.x86">
+      
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU">
+      
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU.Plugs">
+      
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Cosmos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Cosmos.Hardware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Cosmos.System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Cosmos.Debug.Kernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="Commands\Command.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\CommandManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\CommandsInit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\Command\CatCommand.cs" />
+    <Compile Include="Commands\Command\ChangeDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\Command\TestExec.cs" />
+    <Compile Include="Commands\Command\FileEditor.cs" />
+    <Compile Include="Commands\Command\ListDirectories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\Command\MakeDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\Command\RemoveDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\Command\TouchCommand.cs" />
+    <Compile Include="Commands\Command\HelpCommand.cs" />
+    <Compile Include="Encryption\MD5.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Environment\DateTime.cs" />
+    <Compile Include="Environment\EnvVariable.cs" />
+    <Compile Include="Environment\GlobalEnvironment.cs" />
+    <Compile Include="Executables\BinaryLoader.cs" />
+    <Compile Include="Executables\SystemCalls.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="FileSystem\NoobFileSystem\NoobDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileSystem\NoobFileSystem\NoobEntry.cs" />
+    <Compile Include="FileSystem\NoobFileSystem\NoobFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileSystem\NoobFileSystem\NoobFileStream.cs" />
+    <Compile Include="FileSystem\NoobFileSystem\NoobFileSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileSystem\NoobFileSystem\NoobFSBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileSystem\Physical\Drivers\AtapiHandler.cs" />
+    <Compile Include="FileSystem\Physical\Drivers\AtapioHandler.cs" />
+    <Compile Include="FileSystem\Physical\DiskHandler.cs" />
+    <Compile Include="FileSystem\Physical\Drivers\ATABus.cs" />
+    <Compile Include="FileSystem\Physical\Drivers\Enums.cs" />
+    <Compile Include="FileSystem\Physical\IDE.cs" />
+    <Compile Include="FileSystem\Physical\MBR.cs" />
+    <Compile Include="FileSystem\Physical\PartInfo.cs" />
+    <Compile Include="FileSystem\Physical\PrimaryPartition.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Init.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kernel.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Shell.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Release\NoobOSBoot.iso" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
