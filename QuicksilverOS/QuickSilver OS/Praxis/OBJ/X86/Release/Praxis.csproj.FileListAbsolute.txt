@@ -1,0 +1,21 @@
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\bin\Release\Praxis.exe.config
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\bin\Release\Praxis.exe
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\bin\Release\Praxis.pdb
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\obj\x86\Release\Praxis.exe
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\obj\x86\Release\Praxis.pdb
+C:\Users\Adminy\Documents\Visual Studio 2010\Projects\Praxis\Praxis\bin\Release\Praxis.exe.config
+C:\Users\Adminy\Documents\Visual Studio 2010\Projects\Praxis\Praxis\obj\x86\Release\Praxis.exe
+C:\Users\Adminy\Documents\Visual Studio 2010\Projects\Praxis\Praxis\obj\x86\Release\Praxis.pdb
+C:\Users\Adminy\Documents\Visual Studio 2010\Projects\Praxis\Praxis\bin\Release\Praxis.exe
+C:\Users\Adminy\Documents\Visual Studio 2010\Projects\Praxis\Praxis\bin\Release\Praxis.pdb
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\Praxis\bin\Release\Praxis.exe.config
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\Praxis\obj\x86\Release\Praxis.exe
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\Praxis\obj\x86\Release\Praxis.pdb
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\Praxis\bin\Release\Praxis.exe
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\Praxis\bin\Release\Praxis.pdb
+G:\Praxis\Praxis\bin\Release\Praxis.exe.config
+G:\Praxis\Praxis\obj\x86\Release\Praxis.exe
+G:\Praxis\Praxis\obj\x86\Release\Praxis.pdb
+G:\Praxis\Praxis\bin\Release\Praxis.exe
+G:\Praxis\Praxis\bin\Release\Praxis.pdb
+G:\Praxis\Praxis\obj\x86\Release\Praxis.csprojResolveAssemblyReference.cache

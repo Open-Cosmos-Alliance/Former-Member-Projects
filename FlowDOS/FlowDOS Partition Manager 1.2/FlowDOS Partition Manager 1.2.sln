@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowDOS_Part_Mgr", "FlowDOS Partition Manager 1.2\FlowDOS_Part_Mgr.csproj", "{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}"
+EndProject
+Project("{471EC4BB-E47E-4229-A789-D1F5F83B52D4}") = "FlowDOS_Part_Mgr_Boot", "FlowDOS Partition Manager 1.2\FlowDOS_Part_Mgr_Boot.Cosmos", "{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566} = {EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs14
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FlowDOS\u0020Partition\u0020Manager\u00201.2\\FlowDOS_Part_Mgr.csproj
+		SccProjectName1 = FlowDOS\u0020Partition\u0020Manager\u00201.2
+		SccLocalPath1 = FlowDOS\u0020Partition\u0020Manager\u00201.2
+		SccProjectUniqueName2 = FlowDOS\u0020Partition\u0020Manager\u00201.2\\FlowDOS_Part_Mgr_Boot.Cosmos
+		SccProjectName2 = FlowDOS\u0020Partition\u0020Manager\u00201.2
+		SccLocalPath2 = FlowDOS\u0020Partition\u0020Manager\u00201.2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC20EB7B-95E4-40A0-B4E7-5FA7FEB5E566}.Release|x86.Build.0 = Release|Any CPU
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Debug|Any CPU.Build.0 = Debug|x86
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Debug|x86.ActiveCfg = Debug|x86
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Debug|x86.Build.0 = Debug|x86
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Release|Any CPU.ActiveCfg = Debug|x86
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Release|Any CPU.Build.0 = Debug|x86
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Release|x86.ActiveCfg = Debug|x86
+		{B169D96E-9D0E-4D91-9B20-C4EDF326B2C0}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

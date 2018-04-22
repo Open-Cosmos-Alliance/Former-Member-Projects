@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA9E7D51-0CD5-4BC8-8B61-91704E88D044}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FlowDOS</RootNamespace>
+    <AssemblyName>FlowDOS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FlowDOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FlowDOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ACPIManager">
+      <HintPath>bin\Release\ACPIManager.dll</HintPath>
+    </Reference>
+    <Reference Include="corapi">
+      <HintPath>bin\Release\corapi.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Assembler">
+      <HintPath>bin\Release\Cosmos.Assembler.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Assembler.x86">
+      <HintPath>bin\Release\Cosmos.Assembler.x86.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Assembler.X86.Gero">
+      <HintPath>bin\Release\Cosmos.Assembler.X86.Gero.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Assembler.XSharp">
+      <HintPath>bin\Release\Cosmos.Assembler.XSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Build.Common">
+      <HintPath>bin\Release\Cosmos.Build.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Build.MSBuild">
+      <HintPath>bin\Release\Cosmos.Build.MSBuild.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Common.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.Common.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Compiler.XSharp">
+      <HintPath>bin\Release\Cosmos.Compiler.XSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Core.Plugs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.Core.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.Common">
+      <HintPath>bin\Release\Cosmos.Debug.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.Consts">
+      <HintPath>bin\Release\Cosmos.Debug.Consts.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.DebugStub">
+      <HintPath>bin\Release\Cosmos.Debug.DebugStub.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.Kernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.Debug.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.Kernel.Plugs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.Debug.Kernel.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.VSDebugEngine">
+      <HintPath>bin\Release\Cosmos.Debug.VSDebugEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Hardware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.Hardware.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Hardware2">
+      <HintPath>bin\Release\Cosmos.Hardware2.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU">
+      <HintPath>bin\Release\Cosmos.IL2CPU.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU.Plugs">
+      <HintPath>bin\Release\Cosmos.IL2CPU.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU.X86">
+      <HintPath>bin\Release\Cosmos.IL2CPU.X86.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU.X86.Tests">
+      <HintPath>bin\Release\Cosmos.IL2CPU.X86.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Kernel">
+      <HintPath>bin\Release\Cosmos.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Kernel.Plugs">
+      <HintPath>bin\Release\Cosmos.Kernel.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Sys">
+      <HintPath>bin\Release\Cosmos.Sys.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Sys.FileSystem">
+      <HintPath>bin\Release\Cosmos.Sys.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Sys.Plugs">
+      <HintPath>bin\Release\Cosmos.Sys.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.System.Plugs.System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Cosmos.System.Plugs.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.Package">
+      <HintPath>bin\Release\Cosmos.VS.Package.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.Windows">
+      <HintPath>bin\Release\Cosmos.VS.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.Wizards">
+      <HintPath>bin\Release\Cosmos.VS.Wizards.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.XSharp">
+      <HintPath>bin\Release\Cosmos.VS.XSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>bin\Release\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=2.5.2.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="GLNFSLib">
+      <HintPath>bin\Release\GLNFSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VixCOM">
+      <HintPath>bin\Release\Interop.VixCOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Settings, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Microsoft.VisualStudio.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>bin\Release\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>bin\Release\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mosa.Utility.IsoImage">
+      <HintPath>bin\Release\Mosa.Utility.IsoImage.dll</HintPath>
+    </Reference>
+    <Reference Include="NativeDebugWrappers">
+      <HintPath>bin\Release\NativeDebugWrappers.dll</HintPath>
+    </Reference>
+    <Reference Include="raw">
+      <HintPath>bin\Release\raw.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Vestris.VMWareLib">
+      <HintPath>bin\Release\Vestris.VMWareLib.dll</HintPath>
+    </Reference>
+    <Reference Include="XSharp.Nasm">
+      <HintPath>bin\Release\XSharp.Nasm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="ACPI %281%29.cs" />
+    <Compile Include="API.cs" />
+    <Compile Include="Apps\App.cs" />
+    <Compile Include="Apps\AppManager.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Audio\Drivers\cDDI.cs" />
+    <Compile Include="Audio\Drivers\IDT.cs" />
+    <Compile Include="Audio\Drivers\IRQ.cs" />
+    <Compile Include="Audio\Drivers\PCSpeaker.cs" />
+    <Compile Include="Audio\Drivers\PIT.cs" />
+    <Compile Include="Basic.cs" />
+    <Compile Include="Bootscreen.cs" />
+    <Compile Include="BSOD.cs" />
+    <Compile Include="Color.cs" />
+    <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\Commands\HelpCommand.cs" />
+    <Compile Include="Compilers\Basic\BCompiler.cs" />
+    <Compile Include="Compilers\Basic\BControl.cs" />
+    <Compile Include="Compilers\Basic\BControlHandler.cs" />
+    <Compile Include="Compilers\Basic\BInfo.cs" />
+    <Compile Include="Compilers\Basic\BNext.cs" />
+    <Compile Include="Compilers\Basic\BVar.cs" />
+    <Compile Include="Compilers\Basic\BVarHandler.cs" />
+    <Compile Include="Compilers\Basic\BWhile.cs" />
+    <Compile Include="Cons.cs" />
+    <Compile Include="Console.ProgressBar.cs" />
+    <Compile Include="CPUException.cs" />
+    <Compile Include="Crypto\FlowHash.cs" />
+    <Compile Include="Crypto\MD5.cs" />
+    <Compile Include="Crypto\RockPotato.cs" />
+    <Compile Include="Crypto\Rot.cs" />
+    <Compile Include="Drivers\PCSpeaker.cs" />
+    <Compile Include="Encryption\FlowCrypt.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Environment.cs" />
+    <Compile Include="Executables\COM.cs" />
+    <Compile Include="Executables\MZ-EXE.cs" />
+    <Compile Include="Executables\PE-EXE.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Extensions.KernelExtensions.cs" />
+    <Compile Include="Extras\ConMsgBox.cs" />
+    <Compile Include="FileFunctions.cs" />
+    <Compile Include="Filesystem\Device.cs" />
+    <Compile Include="Filesystem\Devices\Ballmer.cs" />
+    <Compile Include="Filesystem\DeviceType.cs" />
+    <Compile Include="Filesystem\DevMgr.cs" />
+    <Compile Include="Filesystem\FileMode.cs" />
+    <Compile Include="Filesystem\Filesystem.cs" />
+    <Compile Include="Filesystem\FileInfo.cs" />
+    <Compile Include="Filesystem\FileType.cs" />
+    <Compile Include="Filesystem\GLNxDev.cs" />
+    <Compile Include="Filesystem\Root.cs" />
+    <Compile Include="Filesystem\MountPoint.cs" />
+    <Compile Include="Filesystem\Stream.cs" />
+    <Compile Include="Filesystem\xDev.cs" />
+    <Compile Include="Font\Chars.cs" />
+    <Compile Include="Font\EnvyFont.cs" />
+    <Compile Include="Font\Font.cs" />
+    <Compile Include="Font\Times\Chars.cs" />
+    <Compile Include="Funcs.cs" />
+    <Compile Include="GraphFuncs.cs" />
+    <Compile Include="Graphics\Color.cs" />
+    <Compile Include="Graphics\Frame.cs" />
+    <Compile Include="Graphics\Graphs.cs" />
+    <Compile Include="Graphics\GUI800x600.cs" />
+    <Compile Include="Graphics\Icons\Mouse.cs" />
+    <Compile Include="Graphics\Windows\Control.cs" />
+    <Compile Include="Graphics\Windows\Controls\Button.cs" />
+    <Compile Include="Graphics\Windows\Controls\TextBox.cs" />
+    <Compile Include="Graphics\Windows\Window.cs" />
+    <Compile Include="Hardware\FlowKeyboard.cs" />
+    <Compile Include="Hardware\FlowMouse.cs" />
+    <Compile Include="Hardware\KeyboardLayout.cs" />
+    <Compile Include="HDVga.cs" />
+    <Compile Include="Installation\Setup.cs" />
+    <Compile Include="Kernel.cs" />
+    <Compile Include="Memory.cs" />
+    <Compile Include="OldRandom.cs" />
+    <Compile Include="Output.cs" />
+    <Compile Include="PCI.cs" />
+    <Compile Include="PearMath\Conversions\ToAny.cs" />
+    <Compile Include="Plugs\AddressSpace.cs" />
+    <Compile Include="Plugs\BusIO.cs" />
+    <Compile Include="Plugs\BusIOImpl.cs" />
+    <Compile Include="Plugs\MemoryAddressSpace.cs" />
+    <Compile Include="Programs\FLBASIC.cs" />
+    <Compile Include="Programs\FlowScript.cs" />
+    <Compile Include="Programs\Games\Snake.cs" />
+    <Compile Include="Programs\TextEditor.cs" />
+    <Compile Include="Random.cs" />
+    <Compile Include="Screen\Drivers\CosmosVGA.cs" />
+    <Compile Include="Screen\Drivers\S3Trio64V2.cs" />
+    <Compile Include="Screen\Drivers\VMWareSVGA.cs" />
+    <Compile Include="Screen\Error.cs" />
+    <Compile Include="Screen\Handlers\CosmosVGA.cs" />
+    <Compile Include="Screen\Handlers\VMWareSVGA.cs" />
+    <Compile Include="Screen\Login\Login.cs" />
+    <Compile Include="Screen\Screen.cs" />
+    <Compile Include="Shell.cs" />
+    <Compile Include="Snake.cs" />
+    <Compile Include="StandardsColors.cs" />
+    <Compile Include="Storage\DiskHandler.cs" />
+    <Compile Include="Storage\Extras.cs" />
+    <Compile Include="Storage\IDE.cs" />
+    <Compile Include="Storage\MBR.cs" />
+    <Compile Include="Storage\PartInfo.cs" />
+    <Compile Include="Storage\PrimaryPartition.cs" />
+    <Compile Include="Strings.cs" />
+    <Compile Include="SysColors.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Users\User.cs" />
+    <Compile Include="Users\UserManager.cs" />
+    <Compile Include="VFS.cs" />
+    <Compile Include="VGAColors.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chars.txt" />
+    <Content Include="COPYRIGHTS\NoobOS.txt" />
+    <Content Include="COPYRIGHTS\PearOS-EnvyOS.txt" />
+    <Content Include="COPYRIGHTS\PlasmidOS.txt" />
+    <Content Include="Storage\NOTICE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Drivers\PowerManagement\" />
+    <Folder Include="Experiments\SingularityFS\" />
+    <Folder Include="FilesFromOtherOSes\" />
+    <Folder Include="Filesystem\FlowFS\" />
+    <Folder Include="Screen\Effects\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  {23de0bd7-004d-4af8-a441-38769054f883}
+  -->
+</Project>

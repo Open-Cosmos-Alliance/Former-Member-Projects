@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8AC53D76-D294-497B-9871-1F24B946FEB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FlowDOS</RootNamespace>
+    <AssemblyName>FlowDOS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FlowDOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FlowDOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cosmos.Assembler">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Assembler.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Build.Common">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Build.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Build.MSBuild">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Build.MSBuild.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Common.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Common.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Compiler.XSharp">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Compiler.XSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Core.Plugs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Core.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.Common">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Debug.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.DebugStub">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Debug.DebugStub.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.Kernel.Plugs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Debug.Kernel.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.VSDebugEngine">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.Debug.VSDebugEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.IL2CPU.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU.Plugs">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.IL2CPU.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.System.Plugs.System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.System.Plugs.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.Package">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.VS.Package.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.Windows">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.VS.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.Wizards">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.VS.Wizards.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.VS.XSharp">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Cosmos.VS.XSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VixCOM">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Interop.VixCOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mosa.Utility.IsoImage">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Mosa.Utility.IsoImage.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Cosmos.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Cosmos.Hardware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Cosmos.System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Cosmos.Debug.Kernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Vestris.VMWareLib">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\Vestris.VMWareLib.dll</HintPath>
+    </Reference>
+    <Reference Include="XSharp.Nasm">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Cosmos User Kit\Build\VSIP\XSharp.Nasm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applications\Application.cs" />
+    <Compile Include="Applications\keymgr.cs" />
+    <Compile Include="Applications\Manager.cs" />
+    <Compile Include="Applications\sudo.cs" />
+    <Compile Include="Computer\Computer.cs" />
+    <Compile Include="Computer\Memory.cs" />
+    <Compile Include="Computer\Time.cs" />
+    <Compile Include="Core\Filesystem.cs" />
+    <Compile Include="Core\Global.cs" />
+    <Compile Include="Core\GUI\Fonts\Font.cs" />
+    <Compile Include="Core\GUI\Fonts\Minecraftia_AndrewTyler\Font.cs" />
+    <Compile Include="Core\GUI\VMwareSVGA\Main.cs" />
+    <Compile Include="Core\Main.cs" />
+    <Compile Include="Core\Power.cs" />
+    <Compile Include="Core\Shell.cs" />
+    <Compile Include="Core\System.cs" />
+    <Compile Include="Crypto\Base64.cs" />
+    <Compile Include="Crypto\MD5.cs" />
+    <Compile Include="Drivers\Audio\PCSpeaker.cs" />
+    <Compile Include="Drivers\Keyboard\KeyLayout.cs" />
+    <Compile Include="Extensions\ConsoleExtensions.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="IO\Console.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\AtomFS.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\Core\AFS.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\Core\Entries.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\Core\Entry Block.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\Core\File System.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\Core\lib\Block.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\Core\lib\Other.cs" />
+    <Compile Include="IO\Filesystem\AtomFS\Mount.cs" />
+    <Compile Include="IO\Filesystem\FAT32\FAT32.cs" />
+    <Compile Include="IO\Filesystem\FileStream.cs" />
+    <Compile Include="IO\Filesystem\Filesystem.cs" />
+    <Compile Include="IO\Filesystem\FilesystemManager.cs" />
+    <Compile Include="IO\Filesystem\FlowFS\FlowFS.cs" />
+    <Compile Include="IO\Filesystem\GLNFS\GLNFS.cs" />
+    <Compile Include="IO\Filesystem\PartitionManager.cs" />
+    <Compile Include="IO\Filesystem\WitchFS\WitchFS.cs" />
+    <Compile Include="IO\Memory\MemAlloc.cs" />
+    <Compile Include="IO\Memory\MemoryStream.cs" />
+    <Compile Include="IO\Out.cs" />
+    <Compile Include="IO\Stream.cs" />
+    <Compile Include="Kernel.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Drivers\Screen\VMwareSVGA.cs" />
+    <Compile Include="Users\Manager.cs" />
+    <Compile Include="Users\SysUsers.cs" />
+    <Compile Include="Users\User.cs" />
+    <Compile Include="Users\UserType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Drivers\Other\" />
+    <Folder Include="IO\Executables\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  {3d66c585-9318-4ecd-b550-2a17792ab799}
+  -->
+</Project>

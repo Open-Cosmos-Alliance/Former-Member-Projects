@@ -1,0 +1,87 @@
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\obj\Release\Quicksilver2013.csprojResolveAssemblyReference.cache
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Quicksilver2013.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Quicksilver2013.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Core.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Debug.Kernel.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Hardware.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.System.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Common.Extensions.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Core.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Hardware.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.System.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Debug.Kernel.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Common.Extensions.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\obj\Release\Quicksilver2013.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\obj\Release\Quicksilver2013.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Assembler.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Assembler.x86.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Assembler.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Assembler.x86.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.IL2CPU.Plugs.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.IL2CPU.Plugs.pdb
+C:\Users\John\Documents\Visual Studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\QuicksilverNEXT.dll
+C:\Users\John\Documents\Visual Studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\QuicksilverNEXT.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Hardware.SMBIOS.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Kernel.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Sys.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Hardware2.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Sys.FileSystem.dll
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Hardware.SMBIOS.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Kernel.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Sys.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Hardware2.pdb
+C:\Users\John\documents\visual studio 2010\Projects\Quicksilver2013\Quicksilver2013\bin\Release\Cosmos.Sys.FileSystem.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Quicksilver_OS.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Quicksilver_OS.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Core.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.Kernel.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Hardware.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.IL2CPU.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.IL2CPU.Plugs.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.System.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\GLNFSLib.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Kernel.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Sys.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.Common.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Mono.Cecil.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Build.Common.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Mono.Cecil.Pdb.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\corapi.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Assembler.XSharp.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.DebugStub.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Common.Extensions.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Hardware2.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Sys.FileSystem.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.Consts.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\raw.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Assembler.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Assembler.x86.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Hardware.SMBIOS.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.IL2CPU.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.IL2CPU.Plugs.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.IL2CPU.X86.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\GLNFSLib.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\QuicksilverNEXT.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Core.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Hardware.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.System.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.Kernel.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Kernel.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Sys.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.Common.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Mono.Cecil.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Build.Common.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Mono.Cecil.Pdb.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\corapi.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Assembler.XSharp.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.DebugStub.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Common.Extensions.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Hardware2.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Sys.FileSystem.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.Debug.Consts.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\raw.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\obj\Release\Quicksilver2013.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\obj\Release\Quicksilver_OS.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\obj\Release\Quicksilver_OS.pdb
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\Cosmos.IL2CPU.X86.dll
+C:\Users\John\Documents\GitHub\quicksilver-os\Quicksilver2013\bin\Release\FirebirdSql.Data.FirebirdClient.dll

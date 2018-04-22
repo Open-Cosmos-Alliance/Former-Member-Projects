@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{692247B0-4837-4787-A5DD-12C27D15B8A3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Imports</RootNamespace>
+    <AssemblyName>Imports</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Cosmos\corapi.dll" />
+    <Content Include="Cosmos\corapi.pdb" />
+    <Content Include="Cosmos\Cosmos.Assembler.dll" />
+    <Content Include="Cosmos\Cosmos.Assembler.pdb" />
+    <Content Include="Cosmos\Cosmos.Assembler.x86.dll" />
+    <Content Include="Cosmos\Cosmos.Assembler.X86.Gero.dll" />
+    <Content Include="Cosmos\Cosmos.Assembler.X86.Gero.pdb" />
+    <Content Include="Cosmos\Cosmos.Assembler.x86.pdb" />
+    <Content Include="Cosmos\Cosmos.Assembler.XSharp.dll" />
+    <Content Include="Cosmos\Cosmos.Assembler.XSharp.pdb" />
+    <Content Include="Cosmos\Cosmos.Build.Common.dll" />
+    <Content Include="Cosmos\Cosmos.Build.Common.pdb" />
+    <Content Include="Cosmos\Cosmos.Build.MSBuild.dll" />
+    <Content Include="Cosmos\Cosmos.Build.MSBuild.pdb" />
+    <Content Include="Cosmos\Cosmos.Common.dll" />
+    <Content Include="Cosmos\Cosmos.Common.Extensions.dll" />
+    <Content Include="Cosmos\Cosmos.Common.Extensions.pdb" />
+    <Content Include="Cosmos\Cosmos.Common.pdb" />
+    <Content Include="Cosmos\Cosmos.Compiler.XSharp.dll" />
+    <Content Include="Cosmos\Cosmos.Compiler.XSharp.pdb" />
+    <Content Include="Cosmos\Cosmos.Core.dll" />
+    <Content Include="Cosmos\Cosmos.Core.pdb" />
+    <Content Include="Cosmos\Cosmos.Core.Plugs.dll" />
+    <Content Include="Cosmos\Cosmos.Core.Plugs.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.Common.dll" />
+    <Content Include="Cosmos\Cosmos.Debug.Common.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.Consts.dll" />
+    <Content Include="Cosmos\Cosmos.Debug.Consts.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.DebugStub.dll" />
+    <Content Include="Cosmos\Cosmos.Debug.DebugStub.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.GDB.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.HostProcess.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.Kernel.dll" />
+    <Content Include="Cosmos\Cosmos.Debug.Kernel.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.Kernel.Plugs.dll" />
+    <Content Include="Cosmos\Cosmos.Debug.Kernel.Plugs.pdb" />
+    <Content Include="Cosmos\Cosmos.Debug.VSDebugEngine.dll" />
+    <Content Include="Cosmos\Cosmos.Debug.VSDebugEngine.pdb" />
+    <Content Include="Cosmos\Cosmos.Deploy.Pixie.pdb" />
+    <Content Include="Cosmos\Cosmos.Deploy.USB.pdb" />
+    <Content Include="Cosmos\Cosmos.Hardware.dll" />
+    <Content Include="Cosmos\Cosmos.Hardware.pdb" />
+    <Content Include="Cosmos\Cosmos.Hardware2.dll" />
+    <Content Include="Cosmos\Cosmos.Hardware2.pdb" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.dll" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.pdb" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.Plugs.dll" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.Plugs.pdb" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.X86.dll" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.X86.pdb" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.X86.Tests.dll" />
+    <Content Include="Cosmos\Cosmos.IL2CPU.X86.Tests.pdb" />
+    <Content Include="Cosmos\Cosmos.Kernel.dll" />
+    <Content Include="Cosmos\Cosmos.Kernel.pdb" />
+    <Content Include="Cosmos\Cosmos.Kernel.Plugs.dll" />
+    <Content Include="Cosmos\Cosmos.Kernel.Plugs.pdb" />
+    <Content Include="Cosmos\Cosmos.Sys.dll" />
+    <Content Include="Cosmos\Cosmos.Sys.FileSystem.dll" />
+    <Content Include="Cosmos\Cosmos.Sys.FileSystem.pdb" />
+    <Content Include="Cosmos\Cosmos.Sys.pdb" />
+    <Content Include="Cosmos\Cosmos.Sys.Plugs.dll" />
+    <Content Include="Cosmos\Cosmos.Sys.Plugs.pdb" />
+    <Content Include="Cosmos\Cosmos.System.dll" />
+    <Content Include="Cosmos\Cosmos.System.pdb" />
+    <Content Include="Cosmos\Cosmos.System.Plugs.System.dll" />
+    <Content Include="Cosmos\Cosmos.System.Plugs.System.pdb" />
+    <Content Include="Cosmos\Cosmos.VS.HostProcess.pdb" />
+    <Content Include="Cosmos\Cosmos.VS.Package.dll" />
+    <Content Include="Cosmos\Cosmos.VS.Package.pdb" />
+    <Content Include="Cosmos\Cosmos.VS.Windows.dll" />
+    <Content Include="Cosmos\Cosmos.VS.Windows.pdb" />
+    <Content Include="Cosmos\Cosmos.VS.Windows.Test.pdb" />
+    <Content Include="Cosmos\Cosmos.VS.Wizards.dll" />
+    <Content Include="Cosmos\Cosmos.VS.Wizards.pdb" />
+    <Content Include="Cosmos\Cosmos.VS.XSharp.dll" />
+    <Content Include="Cosmos\Cosmos.VS.XSharp.pdb" />
+    <Content Include="Cosmos\EntityFramework.dll" />
+    <Content Include="Cosmos\fbembed.dll" />
+    <Content Include="Cosmos\FirebirdSql.Data.FirebirdClient.dll" />
+    <Content Include="Cosmos\icudt30.dll" />
+    <Content Include="Cosmos\icuin30.dll" />
+    <Content Include="Cosmos\icuuc30.dll" />
+    <Content Include="Cosmos\Interop.VixCOM.dll" />
+    <Content Include="Cosmos\Mono.Cecil.dll" />
+    <Content Include="Cosmos\Mono.Cecil.pdb" />
+    <Content Include="Cosmos\Mono.Cecil.Pdb.dll" />
+    <Content Include="Cosmos\Mono.Cecil.Pdb.pdb" />
+    <Content Include="Cosmos\Mosa.Utility.IsoImage.dll" />
+    <Content Include="Cosmos\NativeDebugWrappers.dll" />
+    <Content Include="Cosmos\NativeDebugWrappers.pdb" />
+    <Content Include="Cosmos\raw.dll" />
+    <Content Include="Cosmos\raw.pdb" />
+    <Content Include="Cosmos\Vestris.VMWareLib.dll" />
+    <Content Include="Cosmos\Vestris.VMWareLib.pdb" />
+    <Content Include="Cosmos\XSC.pdb" />
+    <Content Include="Cosmos\XSharp.Nasm.dll" />
+    <Content Include="Cosmos\XSharp.Nasm.pdb" />
+    <Content Include="GruntyOS\GLNFS.dll" />
+    <Content Include="GruntyOS\GLNFS.pdb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

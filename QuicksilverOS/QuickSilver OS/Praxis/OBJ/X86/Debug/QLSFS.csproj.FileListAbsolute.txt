@@ -1,0 +1,9 @@
+C:\Users\Adminy\documents\visual studio 2010\Projects\QLSFS\QLSFS\bin\Debug\QLSFS.exe
+C:\Users\Adminy\documents\visual studio 2010\Projects\QLSFS\QLSFS\bin\Debug\QLSFS.pdb
+C:\Users\Adminy\documents\visual studio 2010\Projects\QLSFS\QLSFS\obj\x86\Debug\QLSFS.exe
+C:\Users\Adminy\documents\visual studio 2010\Projects\QLSFS\QLSFS\obj\x86\Debug\QLSFS.pdb
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\bin\Debug\Praxis.exe.config
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\bin\Debug\Praxis.exe
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\bin\Debug\Praxis.pdb
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\obj\x86\Debug\Praxis.exe
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\obj\x86\Debug\Praxis.pdb

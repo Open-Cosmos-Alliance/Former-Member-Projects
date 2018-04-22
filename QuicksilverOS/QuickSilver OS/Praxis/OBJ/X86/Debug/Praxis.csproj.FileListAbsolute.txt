@@ -1,0 +1,3 @@
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\bin\Debug\Praxis.exe.config
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\obj\x86\Debug\Praxis.exe
+C:\Users\John\Documents\Visual Studio 2010\Projects\Praxis\QLSFS\obj\x86\Debug\Praxis.pdb
